@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jadwal Kapal Ferry</title>
+  <!-- Link Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="mt-5 mb-4">Jadwal Kapal Tomok Ajibata Tour</h1>
+    <div class="table-responsive">
+      <table class="table table-bordered table-hover">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Hari</th>
+            <th scope="col">Jam Berangkat</th>
+            <th scope="col">Durasi</th>
+            <th scope="col">Harga Tiket</th>
+          </tr>
+        </thead>
+        <tbody>
+
+  <script>
+  const dataJadwal = [
+    {
+      "hari": "Senin",
+      "jam_berangkat": "08:00 WIB",
+      "durasi": "2 jam",
+      "harga_tiket": "Rp 100.000"
+    },
+    {
+      "hari": "Selasa",
+      "jam_berangkat": "10:00 WIB",
+      "durasi": "2 jam",
+      "harga_tiket": "Rp 100.000"
+    },
+    {
+      "hari": "Rabu",
+      "jam_berangkat": "12:00 WIB",
+      "durasi": "2 jam",
+      "harga_tiket": "Rp 100.000"
+    },
+    {
+      "hari": "Kamis",
+      "jam_berangkat": "14:00 WIB",
+      "durasi": "2 jam",
+      "harga_tiket": "Rp 100.000"
+    },
+    {
+      "hari": "Jumat",
+      "jam_berangkat": "16:00 WIB",
+      "durasi": "2 jam",
+      "harga_tiket": "Rp 100.000"
+    }
+  ];
+
+</tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Link Bootstrap JS (optional) -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Script JavaScript (sama dengan yang Anda berikan sebelumnya) -->
+  <script>
+    const dataJadwal = [
+      {
+        "hari": "Senin",
+        "jam_berangkat": "08:00 WIB",
+        "durasi": "2 jam",
+        "harga_tiket": "Rp 100.000"
+      },
+      {
+        "hari": "Selasa",
+        "jam_berangkat": "10:00 WIB",
+        "durasi": "2 jam",
+        "harga_tiket": "Rp 100.000"
+      },
+      {
+        "hari": "Rabu",
+        "jam_berangkat": "12:00 WIB",
+        "durasi": "2 jam",
+        "harga_tiket": "Rp 100.000"
+      },
+      {
+        "hari": "Kamis",
+        "jam_berangkat": "14:00 WIB",
+        "durasi": "2 jam",
+        "harga_tiket": "Rp 100.000"
+      },
+      {
+        "hari": "Jumat",
+        "jam_berangkat": "16:00 WIB",
+        "durasi": "2 jam",
+        "harga_tiket": "Rp 100.000"
+      }
+    ];
+
+    const tableBody = document.querySelector('tbody');
+
+    for (const jadwal of dataJadwal) {
+      const tableRow = document.createElement('tr');
+
+      const hariCell = document.createElement('td');
+      hariCell.textContent = jadwal.hari;
+      tableRow.appendChild(hariCell);
+
+      const jamBerangkatCell = document.createElement('td');
+      jamBerangkatCell.textContent = jadwal.jam_berangkat;
+      tableRow.appendChild(jamBerangkatCell);
+
+      const durasiCell = document.createElement('td');
+      durasiCell.textContent = jadwal.durasi;
+      tableRow.appendChild(durasiCell);
+
+      const hargaTiketCell = document.createElement('td');
+      hargaTiketCell.textContent = jadwal.harga_tiket;
+      tableRow.appendChild(hargaTiketCell);
+
+      tableBody.appendChild(tableRow);
+    }
+  </script>
+</body>
+</html>

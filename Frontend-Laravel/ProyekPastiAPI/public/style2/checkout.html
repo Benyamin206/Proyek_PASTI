@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Tiket Kapal Tomok Ajibata</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="mb-4">Checkout Tiket Kapal Tomok Ajibata</h2>
+        <form>
+            <div class="form-group">
+                <label for="nama">Nama Pemesan</label>
+                <input type="text" class="form-control" id="nama" placeholder="Masukkan nama Anda">
+            </div>
+            <div class="form-group">
+                <label for="jumlahTiket">Jumlah Tiket</label>
+                <input type="number" class="form-control" id="jumlahTiket" min="1" value="1">
+            </div>
+            <div class="form-group">
+                <label for="jadwal">Jadwal Keberangkatan</label>
+                <input type="date" class="form-control" id="jadwal">
+            </div>
+            <div class="form-check mb-3">
+                <input type="checkbox" class="form-check-input" id="pulang">
+                <label class="form-check-label" for="pulang">Pulang Pergi</label>
+            </div>
+            <div class="form-group">
+                <label for="metodePembayaran">Metode Pembayaran</label>
+                <select class="form-control" id="metodePembayaran">
+                    <option value="transfer">Transfer Bank</option>
+                    <option value="kartuKredit">Kartu Kredit</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Checkout Sekarang</button>
+        </form>
+        <hr>
+        <div class="text-center">
+            
+        </div>
+    </div>
+</body>
+
+</html>

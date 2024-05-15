@@ -1,0 +1,321 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+/* navbar covid */
+#covid-navbar {
+  height: 50px;
+  background-color: rgb(53, 64, 90);
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: opacity 0.4s;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#scrollToTopBtn:hover {
+  opacity: 0.8;
+}
+#scrollToTopBtn::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  width: 20px;
+  height: 20px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+
+
+#covid-navbar p {
+  color: white;
+  /* margin-bottom: 0; */
+}
+
+#covid-navbar p a {
+  color: rgb(254, 221, 0);
+}
+/* //navbar covid */
+
+/* navbar top  */
+#navbar-top {
+  height: 30px;
+}
+.nav-item .nav-link {
+  font-size: 12px;
+}
+.nav-item a:hover {
+  color: #0064d2 !important;
+}
+.btn img,
+.dropdown-item img {
+  width: 22px;
+  border: 1px solid gray;
+}
+/* //navbar top  */
+
+/* navbar bottom */
+#navbar-bottom {
+  background-color: white !important;
+}
+
+#navbar-bottom .collapse .navbar-nav a {
+  font-size: 14px;
+  color: #35405a;
+}
+
+#navbar-bottom .collapse .navbar-nav .btn {
+  font-size: 14px;
+  color: #0064d2;
+}
+
+#navbar-bottom .collapse .navbar-nav a:hover {
+  border-bottom: 1px solid rgb(0, 100, 210);
+  color: rgb(0, 100, 210) !important;
+}
+/* //navbar bottom */
+
+/* jumbotron carausel */
+.jumbotron {
+  background-color: #0064d2;
+}
+/* //jumbotron carausel */
+
+/* card*/
+.card {
+  margin-top: -96px;
+}
+
+#title-img .title-img-items {
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 85px;
+}
+
+#title-img .title-img-items:hover {
+  background-color: rgba(179, 176, 176, 0.2);
+  border: 1px solid rgb(0, 100, 210);
+}
+/* //card */
+
+/* feaure-box */
+.feature-box .row .col .text p {
+  font-size: 14px;
+}
+/* //feature-box */
+
+/* feature-container */
+.feature-container {
+  width: 1180px;
+}
+
+.feature-container .d-flex img:hover {
+  margin-top: -10px;
+}
+/* //feature-container */
+
+/* simple tiket */
+.simple-tiket {
+  background-image: url(../img/bg.webp);
+}
+
+.simple-tiket .container .card {
+  border: 25px solid rgb(247, 247, 247);
+}
+
+.simple-tiket .container .card .card-body .row .col h5 {
+  color: #35405a;
+}
+
+.simple-tiket .container .card .card-body .row .col p {
+  font-size: 14px;
+}
+
+.simple-tiket .img-footer {
+  width: 1180px;
+  margin-top: -80px;
+  z-index: 2;
+  position: relative;
+}
+
+.simple-tiket h2:last-child {
+  color: #35405a;
+}
+/* //simple tiket */
+
+/* partner-of-tiket */
+.partner-of-tiket {
+  background-image: url("https://www.tiket.com/home-ms/assets/e4cb63ce.svg");
+}
+
+.easy-simple-installment .row .col,
+.partner-of-tiket .row .col h3 {
+  color: #35405a;
+}
+/* //partner-of-tiket */
+
+/* footer */
+
+/* footer top */
+.footer-content {
+  width: 320px;
+}
+
+.span-gray {
+  color: #58627a;
+}
+.footer-content .footer-content-items .footer-text span {
+  font-size: 14px;
+}
+
+.footer .footer-list ul li a {
+  color: #58627a;
+  font-size: 14px;
+}
+.footer .footer-list ul li a:hover {
+  color: #0064d2;
+}
+/* //footer top */
+
+/* footer middel */
+/* .footer-middel .wonderfull-indonesia {
+  display: flex;
+  margin: auto 0;
+} */
+
+.footer-middel .wonderfull-indonesia span {
+  font-size: 10px;
+  color: #58627a;
+}
+
+.footer-middel .footer-middle-items h3 {
+  font-size: 16px;
+  color: #35405a;
+}
+
+.footer-middel .footer-middle-items a i {
+  font-size: 30px;
+  color: #58627a;
+}
+
+.footer-middel .footer-middle-items a i:hover {
+  color: #0064d2;
+}
+/* //footer middel */
+
+/* footer bottom */
+.footer-buttom {
+  font-size: 14px;
+  color: #35405a;
+  /* footer bottom */
+}
+/* //footer */
+
+/* help center */
+.help-center-button .help-center-image-container {
+  position: fixed;
+  bottom: 55px;
+  right: 30px;
+  background-color: #fff;
+  width: 195px;
+  padding: 10px;
+  border-radius: 50px;
+  z-index: 2000;
+  cursor: pointer;
+}
+/* //help center */
+
+@media screen and (min-width: 992px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* hidden web screen */
+  #covid-navbar,
+  #covid-navbar p,
+  .navbar,
+  .jumbotron,
+  #card-container .card,
+  #card-container .card #card-container-body,
+  .feature-box,
+  .feature-container,
+  .simple-tiket,
+  .easy-simple-installment,
+  .partner-of-tiket,
+  .footer,
+  .help-center-button {
+    display: none !important;
+  }
+  /* //hidden web screen */
+
+  .navbar-mobile-top {
+    background-color: rgb(0, 100, 210);
+  }
+
+  .navbar-mobile-buttom-items span {
+    font-size: 10px;
+  }
+
+  #jumbotron-mobile {
+    background-color: rgb(0, 100, 210);
+  }
+
+  .container-mobile h6 {
+    color: #35405a;
+  }
+
+  .container-mobile .row .col-3 h6 {
+    font-size: 11px;
+  }
+
+  .text-box-mobile p {
+    font-size: 12px;
+    color: #58627a;
+    width: 230px;
+  }
+
+  .text-box-mobile button {
+    background-color: #0064d2;
+    color: white;
+    font-size: 12px;
+  }
+
+  .text-box-mobile button:hover {
+    background-color: #064e9b;
+  }
+
+  .covid-mobile,
+  .harga-mobile {
+    color: #35405a;
+  }
+}
